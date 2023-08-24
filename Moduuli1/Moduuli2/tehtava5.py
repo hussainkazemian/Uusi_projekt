@@ -15,6 +15,6 @@ grammaa = (luoti * 13.3)
 print("grammaa:", grammaa)
 print()
 kg = round(grammaa * 0.001, 3,)
-grammaa = "kg * 1000"
+grammaa = ("kg * 1000")
 print("kg:", kg)
 print()
