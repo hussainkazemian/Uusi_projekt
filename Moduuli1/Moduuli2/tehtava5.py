@@ -4,9 +4,17 @@ naula = int(input("Anna naulat:"))
 print(naula)
 luoti = int(input("Anna luodit:"))
 print(luoti)
-naulat = leivi * 20 + naula
-print(naulat)
-luotia = naula * 32 + luoti
-print(luotia)
-grammaa = luoti * 13.3
-print(grammaa)
+print()
+naulat = leivi * 20 +naula
+print("naula:", naulat)
+print()
+luotia = (naula * 32) + luoti
+print("luoti:", luotia)
+print()
+grammaa = (luoti * 13.3)
+print("grammaa:", grammaa)
+print()
+kg = round(grammaa * 0.001, 3,)
+grammaa = "kg * 1000"
+print("kg:", kg)
+print()
