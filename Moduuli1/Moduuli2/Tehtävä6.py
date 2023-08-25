@@ -3,5 +3,5 @@ import random
 alkaa = 0
 loppu = 9
 for i in range(3):
-    print(random.randint(alkaa, loppu))
-    print()
+ print(random.randint(alkaa, loppu))
+ print()

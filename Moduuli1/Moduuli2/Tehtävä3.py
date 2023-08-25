@@ -1,6 +1,7 @@
-width= int(input("How much is the width?"))
-height= int(input("How much is the height?"))
-area= width*height
-piiri = width *2 + height *2
-print(piiri)
-print(area)
+levys = int(input("Anna levys?"))
+pituus = int(input("Anna pituus?"))
+yhteispituus = levys*pituus
+piiri = levys * 2 + pituus * 2
+print("piiri:", + piiri)
+print("yhteispituus:", yhteispituus)
+print()
