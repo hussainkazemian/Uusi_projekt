@@ -10,7 +10,7 @@ print()
 kokonaisluka= kayttaja1 + kayttaja2 + kayttaja3
 print("kokonaisluka:", + kokonaisluka)
 print()
-keskiarvon= (kayttaja1 + kayttaja2 + kayttaja3) / 3
+keskiarvon= (kayttaja1 + kayttaja2 + kayttaja3) // 3
 print("keskiarvon:", + keskiarvon)
 print()
 kertolasku= kayttaja1 * kayttaja2 * kayttaja3

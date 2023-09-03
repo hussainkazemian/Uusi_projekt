@@ -19,6 +19,10 @@ print("jakolaskun tulos: " + str(result))
 print(f"jakolaskun tulos: {result: 8.2f}")
 print(f"jakolaskun tulos :{result: 8.5f}")
 
+#math.floor
+round(luku)
+
+
 print("piin arvo {math.pi}")
 # ympyran ala
 #r=5

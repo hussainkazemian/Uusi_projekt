@@ -30,3 +30,8 @@ gramma = yht % 1000
 
 print('Massa nykymittojen mukaan:')
 print(f'{kilot} kilogrammaa ja {gramma:.2f} grammaa')
+print()
+kilo1 = yht / 1000
+kilo2 = yht // 1000
+tulos = int(kilo2)
+gramma = yht % 1000
