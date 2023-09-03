@@ -10,5 +10,3 @@ elif käyttäjä == "c":
     print("C on ikkunaton hytti autokannen alapuolella.")
 else:
     print("virhellineen hyttiluokka")
-
-
