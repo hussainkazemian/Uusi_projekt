@@ -18,7 +18,7 @@ print(f"silmäluvut ovat {silmäluvut} ja summa {sum(silmäluvut)}")
 # suuruusjärjestyksessä suurimmasta alkaen. Vihje: listan alkioiden
 # lajittelujärjestyksen voi kääntää antamalla sort-metodille
 # argumentiksi reverse=True.
-
+"""
 luvut = []
 suorita = True
 while suorita:
@@ -34,6 +34,8 @@ print(luvut[0:5])
 
 #vaihtoehto
 for i in range(5):
-    print(luvut[1])
+    print(i)
+    print(luvut[i])
+"""
 
 
