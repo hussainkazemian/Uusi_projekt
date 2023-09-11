@@ -37,5 +37,9 @@ for i in range(5):
     print(i)
     print(luvut[i])
 """
-
-
+kaupungit = []
+for i in range(5):
+    nimi = input("Anna kaupungit nimi: ")
+    kaupungit.append(nimi)
+for kaupungit in kaupungit:
+    print(kaupungit)
