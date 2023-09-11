@@ -1,7 +1,7 @@
-kaupungit= []
-käyttäjä = int(input("kirjoitta kaupungin nimet: "))
-while käyttäjä !="":
+kaupungit = []
+käyttäjä = input("kirjoitta kaupungin nimet: ")
+while käyttäjä!="":
     kaupungit.append(käyttäjä)
-
-for kaupunkinimet in kaupungit;
-    print(kaupungit)
+    käyttäjä = input("kirjoitta kaupungit nimet: ")
+for i in [kaupungit]:
+    print(f"{kaupungit} ovat kaupungit nimet")
