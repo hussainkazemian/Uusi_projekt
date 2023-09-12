@@ -64,7 +64,7 @@ print(minun_set)
 #sanakirja
 
 oppilat = {'Katri': 28, 'Sara': 25, 'Emma': 22, 'Saed': 18}
-'''#printaan koko sanakirja
+#printaan koko sanakirja
 #avaimet
 for i in oppilat:
     print(i)
@@ -79,8 +79,27 @@ print(oppilat.keys())
 
 #mitkä ovat arvoja sanakirja? (1,2,3,3,..)
 print(oppilat.values())
-'''
+
 #tarkea
 print(oppilat['Emma'])
 oppilat['Farhad'] = 55
 print(oppilat.items())
+#muokata, sillä avain löytyy
+oppilat['Emili'] = 12
+print(oppilat.items())
+#poista items
+del oppilat['Farhad']
+print(oppilat.items())
+#toinen tapa poistaa, tallenna Emma tiedöt muuttujaan
+Emma_ikä = oppilat.pop('Emma')
+print(f'Emma poistettiin mutta ikä jäi talteen: {Emma_ikä}')
+print(oppilat.items())
+#luodaan uusi opilas, jolla Emma tiedot
+oppilat['Farhad'] = Emma_ikä
+print(oppilat.items())
+'''
+#voit etsiä onko avain sanakirjassa HELPOSTI avainsanan IN kanssa
+nimi = input("Anna nimi: ")
+if nimi in oppilat:
+    print (f"Henkilö {nimi} ikä on {oppilat[nimi]}.")
+'''
