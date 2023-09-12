@@ -1,12 +1,12 @@
 import random
-def pelialka():
+def heitä_noppa():
     kerrat = random.randint(1, 6)
     while kerrat != 6:
         print(kerrat)
         kerrat = random.randint(1, 6)
-    print("saat oikein 6")
+    print("sait 6")
     return
-pelialka()
+heitä_noppa()
 """
 #toinentavalla
 import random
