@@ -9,3 +9,4 @@ def main ():
         luku = heitä_noppa( kerrat)
         print("nopan luku: ", luku)
 main()
+
