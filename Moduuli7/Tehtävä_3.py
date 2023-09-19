@@ -3,12 +3,17 @@ lentoasemat = {}
 #use a while loop to repeatedly ask the user for their
 #choice until they choose to quit:
 while True:
-    käyttäjä = input("valiste letoasema (1: uusi lentoasema,"
+    käyttäjä = input("valiste letoasema, (1: uusi lentoasema,"
                      "2: lentoasmea_tiedot, 3: lopeta): ")
-    if käyttäjä == "1": #code for entering a new aiport
+    if käyttäjä == "1": #code for entering  a new aiport
+        icoa_code = input("Anna lentoasemaan icoa code: ")
+        nimi = input("Anna lentoasemaan nimi: ")
+        lentoasemat[icoa_code] = nimi
+        print("lentoasema tallennettu.")
     elif käyttäjä == "2": #code for fetching lentoasema tiedot:
-    elif käyttäjä == "3": #code for ends the program:
-        break
+        icoa_code = input("Anna lentoaseman icoa code: ")
+        if icoa_code in lentoasemat :
+            print("lentoasema nimi: ", lentoasemat[icoa_code])
     else:
         print("virhellinnen valinta. kokeilaan uudeleen")
 #for entering a new airport ask the user to the icao code and name
