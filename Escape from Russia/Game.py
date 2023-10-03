@@ -55,7 +55,7 @@ ESCAPE FROM RUSSIA\n
 𝐘𝐨𝐮 𝐡𝐚𝐝 𝐚 𝐬𝐩𝐚𝐫𝐞 𝐩𝐥𝐚𝐧𝐞, 𝐛𝐮𝐭 𝐲𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐫𝐞𝐦𝐞𝐦𝐛𝐞𝐫 𝐰𝐡𝐞𝐫𝐞 𝐲𝐨𝐮 𝐥𝐞𝐟𝐭 𝐢𝐭.
 ''')
         input("Press enter to continue")
-    elif option == "gameover":
+    elif option == "game over!":
         print(f"::::::::::::::::::::::\nTHE TRAIN RAN OVER YOU\n::::::::::::::::::::::\n\n")
         input("Press enter to continue")
     elif option == "chuh-chuh":
@@ -236,7 +236,7 @@ def main():
 
             balance = get_balance(game_id)
             if balance < 0:
-                print_text("gameover")
+                print_text("game over!")
                 break
 
             ################### STATION MENU ################
@@ -257,7 +257,7 @@ def main():
             current_station = input("Where to: ")
 
             while (current_station not in neighbors) and current_station != 'x':
-                print('\n\nWrong input, please try again.')
+                print('\n\nWrong input, please try again!')
                 for choice in neighbors:
                     city, city_id = neighbors[choice]
                     print(f"{choice}) {city}")
